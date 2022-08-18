@@ -31,3 +31,5 @@ now = datetime.datetime.today().strftime("%H:%M:%S %d-%m-%Y")
 
 with open("copy.text", "a") as file:
     file.write(now + " " + new_entry + "\n")
+
+    #datetime.datetime.now().isoformat(sep=" ", timespec="seconds") 
